@@ -1,0 +1,171 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #110F21;
+    height: 10vh;
+}
+
+.logo {
+    margin: auto auto auto 9%;
+}
+
+.navigation {
+    margin: auto 9% auto auto ;
+    display: flex;
+}
+
+.favourite {
+    margin: auto;
+    margin-right: 25px;
+}
+
+.basket {
+    margin: auto;
+    margin-right: 42px;
+}
+
+.rectangle {
+    margin: 0 15px;
+}
+
+.regLogbox h1 {
+    display: inline-block;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.regLogbox h1:hover {
+    cursor: pointer;
+}
+
+.loged-user {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    cursor: pointer;
+}
+
+.loged-user > h5 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.loged-user > svg {
+    margin: auto;
+}
+
+.initials-circle {
+    margin: auto 11px;
+    border: 2px solid #FD7114;
+    border-radius: 50px;
+    background: #DEDEE0;
+    padding: 5px 10px;
+}
+
+.initials-circle > h5 {
+    margin: 0 auto;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #110F21;
+}
+
+.user-dropdown {
+    display: inline-block;
+    padding-left: 6px;
+}
+  
+.user-dropdown > h5 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #373738;
+    display: inline-block;
+    margin: 0;
+}
+  
+#user-drop-nav {
+    position: absolute;
+    padding: 0;
+    background: #FFFFFF;
+    border: 1px solid #DEDEE0;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+    width: 235px;
+    list-style: none;
+    right: 9%;
+    top: 59px;
+    z-index: 5;
+}
+  
+#user-drop-nav > li  {
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Heebo ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #373738;
+}
+  
+#user-drop-nav > li:first-child {
+    padding-top: 12px;
+}
+  
+#user-drop-nav > li:last-child{
+    padding-bottom: 10px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #F44336;
+}
+  
+#user-drop-nav > li:hover {
+    background: #F0F0F0;
+    cursor: pointer;
+}
+
+.user-details {
+    border-bottom: 1px solid #E4E4E4;
+    cursor: default;
+}
+
+.user-details > h5 {
+    margin: 17px auto 0 20px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.4px;
+    color: #373738;
+}
+
+.user-details > h6 {
+    margin: 1px auto 12px 20px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.4px;
+    color: #707070;
+}

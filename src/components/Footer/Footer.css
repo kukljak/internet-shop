@@ -1,0 +1,18 @@
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #F1F1F3;
+}
+
+footer h5 {
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #B4B5B5;
+}
